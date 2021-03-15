@@ -21,10 +21,9 @@ func main() {
 	}
 
 	sort.Ints(arr3)
-
 	println(len(arr3))
 
 	end := time.Now()
 	// end----------------------
-	println(fmt.Printf("The call took %v to run.\n", start.Sub(end)))
+	println(fmt.Printf("%v\n", start.Sub(end)))
 }
